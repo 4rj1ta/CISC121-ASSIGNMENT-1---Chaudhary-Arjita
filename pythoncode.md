@@ -12,7 +12,8 @@ def solution(A):
     return unpaired_value
 
 # TEST RESULTS:
-
+(codility1.1.png)
+(codility1.2.png)
 
 # PROBLEM #2: PermMissingElem
 def solution(A):
@@ -29,6 +30,8 @@ def solution(A):
     return total_sum - actual_sum
 
 # TEST RESULTS
+(codility2.1)
+(codility2.2)
 
 # PROBLEM #3: PermCheck
 def solution(A):
@@ -52,6 +55,8 @@ def solution(A):
         return 0
 
 # TEST RESULTS
+(codility3.1)
+(codility3.2)
 
 # PROBLEM #4: PassingCars
 def solution(A):
@@ -75,6 +80,8 @@ def solution(A):
     return passing_pairs
 
 # TEST RESULTS
+(codility4.1)
+(codility4.2)
 
 # PROBLEM #5: CountDiv
 def solution(A, B, K):
@@ -85,3 +92,5 @@ def solution(A, B, K):
     return divisible_at_B - divisible_below_A
 
 # TEST RESULTS
+(codility5.1)
+(codility5.2)
