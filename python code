@@ -1,1 +1,15 @@
+# PROBLEM #1: OddOccurencesInArray
 
+def solution(A):
+    """
+    Finds the unpaired element in array A in which all other elements occur in pairs.
+    (Hence the odd number of elements)
+    Uses the bitwise XOR operator (^) to achieve O(N) time complexity and O(1) space 
+    complexity.
+    """
+    unpaired_value = 0
+    for number in A:
+        unpaired_value ^= number #XOR property: x^x = 0, x^0 = x
+    return unpaired_value
+
+# TEST RESULTS:
