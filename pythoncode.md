@@ -30,8 +30,8 @@ def solution(A):
     return total_sum - actual_sum
 
 # TEST RESULTS
-![2.1](codility2.1)
-![2.2](codility2.2)
+![2.1](codility2.1.png)
+![2.2](codility2.2.png)
 
 # PROBLEM #3: PermCheck
 def solution(A):
@@ -55,8 +55,8 @@ def solution(A):
         return 0
 
 # TEST RESULTS
-![3.1](codility3.1)
-![3.2](codility3.2)
+![3.1](codility3.1.png)
+![3.2](codility3.2.png)
 
 # PROBLEM #4: PassingCars
 def solution(A):
@@ -80,8 +80,8 @@ def solution(A):
     return passing_pairs
 
 # TEST RESULTS
-![4.1](codility4.1)
-![4.2](codility4.2)
+![4.1](codility4.1.png)
+![4.2](codility4.2.png)
 
 # PROBLEM #5: CountDiv
 def solution(A, B, K):
@@ -92,5 +92,5 @@ def solution(A, B, K):
     return divisible_at_B - divisible_below_A
 
 # TEST RESULTS
-![5.1](codility5.1)
-![5.2](codility5.2)
+![5.1](codility5.1.png)
+![5.2](codility5.2.png)
